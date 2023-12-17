@@ -25,6 +25,10 @@ repositories {
 }
 
 dependencies {
+    // https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-dynamodb
+    implementation("com.amazonaws:aws-java-sdk-dynamodb:1.12.608")
+
+
     implementation("org.springframework.boot:spring-boot-starter-graphql")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
